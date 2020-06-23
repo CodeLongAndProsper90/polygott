@@ -6,6 +6,10 @@ aliases = [
   "dlang",
 ]
 
+extensions = [
+  "d"
+]
+
 packages = [
   "gdc",
   "gdb"
@@ -13,7 +17,7 @@ packages = [
 [compile]
 
 command = [
-  "dgc -g",
+  "gdc -g",
   "main.d"
 ]
 
